@@ -1,0 +1,138 @@
+body {
+    background-image: url("https://images.alphacoders.com/115/1156309.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 500%;
+    }
+
+    h2 {
+        margin-left: 50px;
+    }
+
+    .button {
+        width: 150px;
+    }
+    
+    .result{
+        font-size: 36px;
+    }
+}
+
+h1 {
+    color: rgb(245, 245, 245);
+    font-size: 36px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 25px;
+    padding-top: 10px;
+    font-weight:bold; 	
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgba(236, 236, 236, 0.89);
+    font-size: 24px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin-top: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.catetoB {
+    color: rgb(226, 226, 226);
+    font-size: 24px;
+}
+
+#b {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: black;
+    flex: 10;
+    background-color: rgba(0, 9, 133, 0.788);
+    color: rgb(216, 216, 216);
+    font-size: 22px;
+    padding: 0 10px;
+}
+
+.catetoC {
+    color: rgb(226, 226, 226);
+    font-size: 24px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin-top: 0px;
+}
+
+#c {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: black;
+    flex: 10;
+    background-color: rgba(0, 9, 133, 0.788);
+    color: rgb(216, 216, 216);
+    font-size: 22px;
+    padding: 0 10px;
+}
+
+.triangulo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin: 20px;
+    margin-top: 0px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.button {
+    background-color: rgba(0, 9, 133, 0.788);
+    height: 40px;
+    border-radius: 5px;
+    width: 15%;
+    font-size: 16px;
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+    cursor:  pointer;
+    border: none;
+    margin-left: -300px;
+}
+
+.button:hover {
+    background-color: rgba(2, 69, 146, 0.781);
+}
+
+.result {
+    background-color: none;
+    height: 40px;
+    width: 400px;
+    padding: 5px 10px;
+    margin-bottom: 100px;
+    margin-left: -200px;
+    font-size: 36px;
+    color: rgb(233, 236, 255)
+}

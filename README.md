@@ -1,6 +1,5 @@
 ## teorema-de-pitagoras
 
-
 Calculadora para teorema de pitágoras (a²=b²+c²) utilizando HTML, CSS e Javascript.
 
 (Ainda não responsivo para mobile)
